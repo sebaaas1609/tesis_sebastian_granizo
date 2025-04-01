@@ -1,0 +1,26 @@
+path: '/content/drive/MyDrive/Colab Notebooks/personal-tests/tesis/data'
+train: train/images  # train images (relative to 'path')
+val: val/images  # val images (relative to 'path')
+
+# Classes
+names:
+  0: ladybug
+
+
+hsv_h: 0.015       # Hue shift (0-0.1)
+hsv_s: 0.7         # Saturation shift (0-1)
+hsv_v: 0.4         # Value shift (0-1)
+degrees: 45.0      # Rotation range (-45 to +45 degrees)
+translate: 0.1     # Translation (±10%)
+scale: 0.5         # Scale (±50%)
+shear: 0.0         # Shear (disabled for rotation compatibility)
+perspective: 0.0005  # Perspective distortion (0-0.001)
+# Flip augmentations
+fliplr: 0.5        # Horizontal flip (50% chance)
+flipud: 0.3        # Vertical flip (30% chance)
+# Advanced augmentations
+mosaic: 1.0        # Mosaic (100% chance)
+mixup: 0.0        # MixUp 
+auto_augment: "randaugment"  # AutoAugment policy
+# Random erase
+erase: 0.1 

@@ -1,0 +1,4 @@
+train: ./images/research_grade
+
+nc: 1  
+names: ["ladybug"]

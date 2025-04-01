@@ -1,0 +1,7 @@
+path: /Users/sebasgranizo/Developer/tesis/capstone_project_sebas_granizo/data
+train: images/train
+val: images/train
+
+
+names:
+  0: ladybug
